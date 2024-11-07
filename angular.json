@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "browser": "src/main.ts", 
             "outputPath": "dist/open",
             "index": "src/index.html",
             "main": "src/main.ts",
