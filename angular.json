@@ -58,10 +58,12 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "open:build:production"
+              "buildTarget": "open:build:production",
+              "port": 8080
             },
             "development": {
-              "buildTarget": "open:build:development"
+              "buildTarget": "open:build:development",
+              "port": 8080
             }
           },
           "defaultConfiguration": "development"
